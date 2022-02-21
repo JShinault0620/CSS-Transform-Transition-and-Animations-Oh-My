@@ -1,7 +1,7 @@
 .hamburger:hover > div:nth-child(1){
   background-color: ghostwhite;
   animation-name: top;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -14,7 +14,7 @@
 .hamburger:hover > div:nth-child(3){
   background-color: ghostwhite;
   animation-name: bottom;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -28,16 +28,16 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from { }
+  to { transform: translateY(325%) rotate(225deg) scalex(125%); }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from { }
+  to { opacity: 0; }
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from { }
+  to { transform: translateY(-325%) rotate(-225deg) scalex(125%); }
 }
