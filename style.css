@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+li {
+    display: inline;
+    padding: 2em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #eee;
+    padding: 1em;
+    color: black;
+    border: solid black 2px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: grey;
+    color: #eee;
+}
